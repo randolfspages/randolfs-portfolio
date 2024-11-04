@@ -1,4 +1,16 @@
-import { GiCalendar, GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
+//import { GiCalendar, GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
+//import GiClawSlashes  from "react-icons/gi";
+//import GiCalendar  from "react-icons/gi";
+//import GiMailbox  from "react-icons/gi";
+//import GiPhone  from "react-icons/gi";
+//import GiMayanPyramid  from "react-icons/gi";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEarthAfrica, faEnvelopesBulk, faPhone, faLocationDot, faEllipsisVertical, faUser } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from "react-router-dom";
+
+
+
+
 
 const Aside = () => {
   return (
@@ -6,24 +18,24 @@ const Aside = () => {
         <div className="sidebar-info">
           <figure className="avatar-box">
             <img
-              src={"/images/mamun.jpg"}
-              alt="Richard hanrick"
+              src={"/images/personal-foto.png"}
+              alt="myImage"
               width="80"
             />
           </figure>
 
           <div className="info-content">
             <h1 className="name" title="Richard hanrick">
-              Md AL Mamun
+              Randolf <br />Akuamoah Boateng
             </h1>
 
-            <p className="title">Web developer</p>
+            <p className="title">&#10003; FullStack Developer <br /> &#10003; Sustainbility and Innovation Enthusiast.</p>
           </div>
 
           <button className="info_more-btn" data-sidebar-btn>
             <span>Show Contacts</span>
 
-            <GiClawSlashes />
+            <FontAwesomeIcon icon={faEnvelopesBulk} />
           </button>
         </div>
 
@@ -33,7 +45,7 @@ const Aside = () => {
           <ul className="contacts-list">
             <li className="contact-item">
               <div className="icon-box">
-                <GiMailbox/>
+              <FontAwesomeIcon icon={faEnvelopesBulk} />
                 
               </div>
 
@@ -41,28 +53,28 @@ const Aside = () => {
                 <p className="contact-title">Email</p>
 
                 <a href="mailto:richard@example.com" className="contact-link">
-                  richard@example.com
+                  randolfakuamoah@gmail.com
                 </a>
               </div>
             </li>
 
             <li className="contact-item">
               <div className="icon-box">
-                <GiPhone/>
+              <FontAwesomeIcon icon={faEnvelopesBulk} />
               </div>
 
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
 
                 <a href="tel:+12133522795" className="contact-link">
-                  +1 (213) 352-2795
+                  +49 163 140 7303
                 </a>
               </div>
             </li>
 
-            <li className="contact-item">
+            {/* <li className="contact-item">
               <div className="icon-box">
-                <GiCalendar/>
+              <FontAwesomeIcon icon={faEnvelopesBulk} />
                
               </div>
 
@@ -71,18 +83,18 @@ const Aside = () => {
 
                 <time dateTime="1982-06-23">June 23, 1982</time>
               </div>
-            </li>
+            </li> */}
 
             <li className="contact-item">
               <div className="icon-box">
-                <GiMayanPyramid/>
+              <FontAwesomeIcon icon={faEnvelopesBulk} />
                 <ion-icon name="location-outline"></ion-icon>
               </div>
 
               <div className="contact-info">
                 <p className="contact-title">Location</p>
 
-                <address>Sacramento, California, USA</address>
+                <address>Steingasse, Wiesbaden, Germany</address>
               </div>
             </li>
           </ul>

@@ -1,57 +1,71 @@
 [
     {
       "id": 1,
-      "title": "Finance",
-      "category": "Web development",
-      "image": "images/project-1.jpg"
+      "title": "Cloned Amazon Website",
+      "category": "Web design",
+      "features": "Key Features: Responsive Design and application of the Nested Layout Technique using HTML, CSS and JavaScript",
+      "image": "images/amazon-clone.jpg",
+      "link":"https://randolfspages.github.io/amazon-website-clone-project/"
     },
     {
       "id": 2,
-      "title": "Orizon",
-      "category": "Web development",
-      "image": "images/project-2.png"
+      "title": "Cloned Youtube Website",
+      "category": "Web design",
+      "features": "Key Features: Responsive Design with the SearchBar shrinking, tooltip and hover effects and application of the Nested Layout Technique, using HTML and CSS to acheive the same features as the oringinal website",
+      "image": "images/youtube-clone.jpg",
+      "link":"https://randolfspages.github.io/youtube-clone-project/"
     },
     {
       "id": 3,
-      "title": "Fundo",
+      "title": "Travel Journal",
       "category": "Web design",
-      "image": "images/project-3.jpg"
+      "features": "Key Features: Responsive Design and application of the Nested Layout Technique using HTML and CSS",
+      "image": "images/travel-journal.jpg",
+      "link":"https://randolfspages.github.io/travel-journal-project/"
     },
     {
       "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg"
+      "title": "Job Listings Website",
+      "category": "Web development",
+      "features": "Key Features: Responsive Design using React JS(React Routing), Tailwind and Vite",
+      "image": "images/job-listings-website.jpg",
+      "link":"https://randolfspages.github.io/joblistings-website-project/"
     },
     {
       "id": 5,
-      "title": "DSM.",
+      "title": "The African Woman Page",
       "category": "Web design",
-      "image": "images/project-5.png"
+      "features": "Key Features: Responsive Design effect, with a Scroll-Driven-Animation feature using HTML and CSS",
+      "image": "images/the-african-woman.jpg",
+      "link":"https://randolfspages.github.io/the-african-woman/"
     },
     {
       "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png"
+      "title": "Car Feature Configurator, Tesla",
+      "category": "Applications",
+      "image": "images/tesla-feature-configurator.jpg",
+      "link":"https://randolfspages.github.io/tesla-car-feature-configurator/"
     },
     {
       "id": 7,
       "title": "Summary",
       "category": "Web development",
-      "image": "images/project-7.png"
+      "image": "images/project-7.png",
+      "link":"https://randolfspages.github.io/amazon-website-clone-project/"
     },
     {
       "id": 8,
       "title": "Task Manager",
       "category": "Applications",
-      "image": "images/project-8.jpg"
+      "image": "images/project-8.jpg",
+      "link":"https://randolfspages.github.io/amazon-website-clone-project/"
     },
     {
       "id": 9,
       "title": "Arrival",
       "category": "Web development",
-      "image": "images/project-9.png"
+      "image": "images/project-9.png",
+      "link":"https://randolfspages.github.io/amazon-website-clone-project/"
     }
   ]
   

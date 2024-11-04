@@ -11,14 +11,14 @@ const Navbar = () => {
       </li>
 
       <li className="navbar-item">
-        <NavLink to="/resume" className="navbar-link" data-nav-link>
-          Resume
+        <NavLink to="/portfolio" className="navbar-link" data-nav-link>
+          Portfolio
         </NavLink>
       </li>
 
       <li className="navbar-item">
-        <NavLink to="/portfolio" className="navbar-link" data-nav-link>
-          Portfolio
+        <NavLink to="/resume" className="navbar-link" data-nav-link>
+          Resume
         </NavLink>
       </li>
 
