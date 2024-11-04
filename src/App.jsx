@@ -13,9 +13,9 @@ function App() {
       <Aside/>
       <div className="main-content">
        <Navbar/>
-        <section style={{
-          scrollBehavior: "smooth"
-        }}><Outlet/></section>
+        <section style={{scrollBehavior: "smooth"}}>
+            <Outlet/>
+        </section>
       </div>
     </>
   );
