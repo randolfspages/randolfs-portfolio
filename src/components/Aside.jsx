@@ -32,11 +32,11 @@ const Aside = () => {
             <p className="title">&#10003; FullStack Developer <br /> &#10003; Sustainbility and Innovation Enthusiast.</p>
           </div>
 
-          <button className="info_more-btn" data-sidebar-btn>
+          {/* <button className="info_more-btn" data-sidebar-btn>
             <span>Show Contacts</span>
 
             <FontAwesomeIcon icon={faEnvelopesBulk} />
-          </button>
+          </button> */}
         </div>
 
         <div className="sidebar-info_more">

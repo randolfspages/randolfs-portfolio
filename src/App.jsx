@@ -5,12 +5,12 @@ import "./App.css";
 
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Aside from "./components/Aside";
+// import Aside from "./components/Aside";
 
 function App() {
   return (
     <>
-      <Aside/>
+      {/* <Aside/> */}
       <div className="main-content">
        <Navbar/>
         <section style={{scrollBehavior: "smooth"}}>
